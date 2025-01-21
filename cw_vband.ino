@@ -18,8 +18,11 @@
 
 // Vband seems to work best emulating the [] keys
 // Also works with vail online code
-#define ditKey '['
-#define dahKey ']'
+//#define ditKey '['
+//#define dahKey ']'
+
+#define ditKey 0xe1
+#define dahKey 0xe2
 
 // setup the pins and HID (device)
 void setup() {
